@@ -2,6 +2,7 @@
 these tell about how does an the mcp came into picture due to that json format
 
 see here we use the json format for each of them 
+
 tools = [
     {
         "type": "function",
