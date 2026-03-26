@@ -53,7 +53,7 @@ tools = [
 ]
 
 
-In the above example, we are defining separate JSON objects for select, insert, update, and delete operations.
+In the above example, we are defining separate JSON format for select, insert, update, and delete operations.
 
 If we want to support many operations, we must keep adding more JSON definitions again and again. This makes the system harder to maintain and less scalable.
 
