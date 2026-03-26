@@ -1,7 +1,5 @@
 # MCP_CORE_CONCEPT
-these tell about how does an the mcp came into picture due to that json format
 
-see here we use the json format for each of them 
 
 tools = [
     {
@@ -55,9 +53,12 @@ tools = [
 ]
 
 
-in the above one we see an the json format for an the insert select update delete 
-so, if we want to do the operation for the n number of them then we want to add the json format n times also 
+In the above example, we are defining separate JSON objects for select, insert, update, and delete operations.
 
-To omit these only the Anthropic brought an the standard mcp concept i means a standard json format by using a single json we can operate n number of operation
+If we want to support many operations, we must keep adding more JSON definitions again and again. This makes the system harder to maintain and less scalable.
+
+To solve this problem, Anthropic introduced the MCP (Model Context Protocol) concept. MCP provides a standard structure where a single JSON-based interface can handle multiple operations dynamically instead of defining a new JSON block every time.
+
+This reduces duplication and makes the integration more flexible and easier to manage.
 
 
