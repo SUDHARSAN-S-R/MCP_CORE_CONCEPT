@@ -106,7 +106,7 @@ def chat(prompt):
             result = execute_query(name)
 
             print("tool", name)
-            print("result", result)
+            
     else:
         print("response", message.content)
 
